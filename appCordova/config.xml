@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="br.com.llobato.cenourapp"
+        version="1.0.0">
+
+        <name>
+            Só de Cenoura
+        </name>
+
+        <description>
+            Menu do restaurante Só de Cenoura.
+        </description>
+
+        <author href="http://llobato.com.br" email="leonardo@llobato.com.br">
+            Leonardo Lobato
+        </author>
+
+        <!--Trava a orientação-->
+        <preference name="orientation" value="portrait" />
+
+        <!--Modelo de tela cheia-->
+        <preference name="fullscreen" value="true" />
+
+        <!--Permissões-->
+        <preference name="permissions" value="none" />
+
+        <!--Versão Android 4.1 e superiores-->
+        <preference name="android-minSdkVersion" value="16" />
+
+        <!--Restringir ao Android-->
+        <platform name="android" />
+
+        <!--Icone-->
+        <icon src="icon.png" />
+
+        <!--Splash screen-->
+        <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+        <splash src="splash.png" />
+
+
+
+</widget>
